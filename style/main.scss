@@ -372,6 +372,9 @@ hr {
 
       // Set background
       background: $mixed-background;
+		
+	  // Set image
+	  background: url('../images/'+$power+'.jpg');
 
       // Add glow
       $glow-opacity: max($exponent - 4, 0) / ($limit - 4);
